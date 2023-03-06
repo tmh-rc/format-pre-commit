@@ -1,0 +1,7 @@
+#!/bin/sh
+
+files=$(git diff --cached --name-only --diff-filter=AMCR -- '*.php')
+
+exec vendor/bin/pint $files
+
+git add $files
