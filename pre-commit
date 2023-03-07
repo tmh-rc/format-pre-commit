@@ -1,7 +1,16 @@
 #!/bin/sh
 
+# Format js and html by prettier
+files=$(git diff --cached --name-only --diff-filter=AMCR -- '*.js' '*.html')
+node_modules/.bin/prettier --write $files
+git add $files
+
+# Format php by laravel pint
 files=$(git diff --cached --name-only --diff-filter=AMCR -- '*.php')
+vendor/bin/pint $files
+git add $files
 
-exec vendor/bin/pint $files
-
+# Format blade by blade formatter
+files=$(git diff --cached --name-only --diff-filter=AMCR  -- '*.blade.php')
+node_modules/.bin/blade-formatter --write $files
 git add $files
