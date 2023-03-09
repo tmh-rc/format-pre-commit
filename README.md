@@ -4,6 +4,8 @@ Automate format PHP, JavaScript, HTML, Blade whenever git commit. Support Larave
 
 ### Installation
 
+Download this code to your project.
+
 Install PHP dependences [Pint](https://github.com/laravel/pint):
 
 ```
