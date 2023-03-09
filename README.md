@@ -18,7 +18,7 @@ Install Node dependences [Prettier](https://prettier.io) and [blade-formatter](h
 npm install
 ```
 
-Setup pre-commit:
+Copy `pre-commit` file into `.git/hooks` directory:
 
 ```
 cp pre-commit .git/hooks/pre-commit
