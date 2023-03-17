@@ -1,6 +1,6 @@
 # Formatter Pre-commit
 
-Here is formatter config to format before commit. Support following languages and framework
+Here is formatter config to format before git commit. Support following languages and framework
 - PHP
 - Blade
 - HTML
