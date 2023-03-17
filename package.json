@@ -1,6 +1,0 @@
-{
-    "devDependencies": {
-        "blade-formatter": "^1.32.9",
-        "prettier": "2.8.4"
-    }
-}
