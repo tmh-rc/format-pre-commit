@@ -1,12 +1,12 @@
 # Formatter Pre-commit
 
 Here is formatter config to format before git commit. Support following languages and framework
-- PHP
-- Blade
-- HTML
-- JavaScript
-- Vue.js
-- React.js
+- PHP [(Pint)](https://github.com/laravel/pint)
+- Blade [(blade-formatter)](https://github.com/shufo/blade-formatter)
+- HTML [(Prettier)](https://prettier.io)
+- JavaScript [(Prettier)](https://prettier.io)
+- Vue.js [(Prettier)](https://prettier.io)
+- React.js [(Prettier)](https://prettier.io)
 
 ## Prerequisites
 Before getting started, ensure that you have the following installed on your system:
