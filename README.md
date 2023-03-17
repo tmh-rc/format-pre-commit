@@ -21,7 +21,7 @@ Before getting started, ensure that you have the following installed on your sys
 
 - Download this code in your machine.
 - remove `.gitignore`, `README.md` file and `.git` folder
-- Move all files into your project under root directory
+- Move all files into your project
 - Install Node dependences [Prettier](https://prettier.io) and [blade-formatter](https://github.com/shufo/blade-formatter)
 ```
 npm install blade-formatter prettier
