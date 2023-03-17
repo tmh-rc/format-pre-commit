@@ -19,18 +19,20 @@ Before getting started, ensure that you have the following installed on your sys
 
 ## Installation
 
-- Download this code in your machine.
+- Clone this repo in your machine except working folder
+```
+https://github.com/tmh-rc/format-pre-commit.git
+```
+- Go cloned folder
 - remove `.gitignore`, `README.md` file and `.git` folder
 - Move all files into your laravel project
 - Install Node dependences [Prettier](https://prettier.io) and [blade-formatter](https://github.com/shufo/blade-formatter)
 ```
 npm install blade-formatter prettier
 ```
-- Install PHP dependences [Pint](https://github.com/laravel/pint):
-```
-composer require laravel/pint --dev
-```
 Copy `pre-commit` file into `.git/hooks` directory:
+eg.
 ```
 cp pre-commit .git/hooks/pre-commit
 ```
+- Done
